@@ -24,12 +24,22 @@ label {
 nav[role="custom-dropdown"] {
   position:relative;
   width: 100%;
-    
+  .menu_left 
+    {
+        padding: 0;
+        margin: 0 auto;
+        float : left;
+        font: 1.1em arial;
+        padding: .55em .55em;
+        height: 100%;
+        width: 15%;
+        text-align:center;
+    }
   a,
   label {
     color:#000;
     text-decoration:none;
-    font: 1.4em;
+    font: 0.8em arial;
     transition:color 0.3s ease-in-out;
   }
     
@@ -40,9 +50,9 @@ nav[role="custom-dropdown"] {
     list-style:none;
     
     > li {
-      float:left;
-      padding:.55em .55em;
-      width:19%;
+      float:right;
+      padding:.80em .55em;
+      width:15%;
       text-align:center;
 
       cursor: pointer;
